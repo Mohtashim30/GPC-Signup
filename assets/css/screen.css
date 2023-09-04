@@ -1496,7 +1496,7 @@
         font-size: 34px;
     }
     .section2_mainheading > h3 {
-    font-size: 20px;
+    font-size: 20px !important;
     font-weight: 700;
     margin-top: 60px;
     padding-left: 15px;
