@@ -1273,3 +1273,240 @@
         display: none;
     }
 }
+
+/*iPhone Screens*/
+@media only screen and (max-width: 375px){
+    /*Signup Page*/
+    #banner{
+        height: 575px;
+        }
+    .mainHeading, .mainHeading2 {
+        font-size: 34px;
+    }
+    .section1_rightimg{
+        justify-content: center !important;
+        max-width: 100%;
+        margin: 24px 0px 0px 0px;
+        position: relative;
+    }
+    .section2_mainheading > h3 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #000;
+        text-align: center;
+    }
+    .section2_box1::after, .section2_box2::after, .section2_box3::after {
+        display: none;
+    }
+    .section2_bottomheading > h3 {
+        font-size: 22px;
+    }
+    .section2_bottomheading > h3 > img {
+        width: 150px;
+    }
+    .section2_lastarea_innerright{
+        justify-content: center;
+    }
+    .section2_lastarea_innerleft > img, .section2_lastarea_innerright > img{
+        max-width: 130px;
+        max-height: 85px;
+    }
+    .section2_lastarea_innerleft {
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .section2_lastarea_innerleft > h3 {
+        font-size: 24px;
+    }
+    .section2_lastarea_innerright > h3 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .section2_lastarea_left_btn > h4, .section2_lastarea_right_btn > h4 {
+        max-width: 380px;
+        max-height: 50px;
+        justify-content: center;
+        padding: 6px 10px;
+        margin: 20px auto;
+    }
+    .section2_lastarea_left_btn > h4 > a, .section2_lastarea_right_btn > h4 > a {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*Download Page*/
+    /* Section 1*/
+    #dp_banner{
+        height: 575px;
+    }
+    .dp_mainHeading, .dp_mainHeading2 {
+        font-size: 34px;
+    }
+    .dp_section1_rightimg{
+        justify-content: center !important;
+        max-width: 100%;
+        margin: 24px 0px 0px 0px;
+        position: relative;
+    }
+    /* Section 2*/
+    #dp_section2{
+        margin-top: 91px;
+        background-color: #F5F1E6;
+        max-height: 200px;
+        justify-content: flex-end;
+        padding: 25px 0px !important;
+    }
+    .dp_section2_heading>h3 {
+        font-size: 31px;
+        font-weight: 700;
+        color: #000;
+        font-family: 'Anonymous Pro', monospace;
+        text-transform: uppercase;
+    }
+    .dp_section2_heading>h3>p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 12px;
+        color: #000;
+        margin-left: 137px;
+        font-family: 'Anonymous Pro', monospace;
+        text-transform: uppercase;
+    }
+    .dp_section2_heading>h3>img {
+        width: 140px;
+    }
+    /*Section 3*/
+    .dp_section3_leftside>img{
+        max-width: 340px;
+        position: relative;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    /*Signup Page*/
+    #banner{
+        height: 590px;
+        }
+    .mainHeading, .mainHeading2 {
+        font-size: 34px;
+    }
+    .section1_rightimg{
+        justify-content: center !important;
+        max-width: 100%;
+        margin: 23px 0px 0px 0px;
+        position: relative;
+    }
+    .section2_mainheading > h3 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #000;
+        text-align: center;
+    }
+    .section2_box1::after, .section2_box2::after, .section2_box3::after {
+        display: none;
+    }
+    .section2_bottomheading > h3 {
+        font-size: 22px;
+    }
+    .section2_bottomheading > h3 > img {
+        width: 150px;
+    }
+    .section2_lastarea_innerleft > h3 {
+        font-size: 24px;
+    }
+    .section2_lastarea_innerright > h3 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .section2_lastarea_left_btn > h4 > a, .section2_lastarea_right_btn > h4 > a {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*Download Page*/
+    /* Section 1*/
+    #dp_banner{
+        height: 590px;
+    }
+    .dp_mainHeading, .dp_mainHeading2 {
+        font-size: 34px;
+    }
+    .dp_section1_rightimg{
+        justify-content: center !important;
+        max-width: 100%;
+        margin: 23px 0px 0px 0px;
+        position: relative;
+    }
+    /*Section 3*/
+    .dp_section3_leftside>img{
+        max-width: 350px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    /*Signup Page*/
+    #banner{
+        height: 580px;
+        }
+    /*Download Page*/
+    /* Section 1*/
+    #dp_banner{
+        height: 580px;
+    }
+}
+@media only screen and (max-width: 428px) {
+    /*Signup Page*/
+    #banner{
+        height: 600px;
+        }
+    .mainHeading, .mainHeading2 {
+        font-size: 34px;
+    }
+    .section2_mainheading > h3 {
+        font-size: 22px !important;
+        font-weight: 700;
+        margin-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #000;
+        text-align: center;
+      }
+      .section2_bottomheading > h3 > img {
+        width: 170px;
+      }
+      .section2_bottomheading > h3 {
+        font-size: 23px;
+      }
+      .section2_lastarea_innerleft > h3 {
+        font-size: 25px;
+      }
+      .section2_lastarea_innerright > h3 {
+        font-size: 18px !important;
+      }
+    /*Download Page*/
+    /* Section 1*/
+    #dp_banner{
+        height: 600px;
+    }
+    .dp_mainHeading, .dp_mainHeading2 {
+        font-size: 34px;
+    }
+    .section2_mainheading > h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+    text-align: center;
+  }
+  .dp_section3_leftside > img {
+    max-width: 390px;
+    position: relative;
+    margin-top: 20px;
+  }
+}
