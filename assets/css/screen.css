@@ -1485,7 +1485,7 @@
         font-size: 25px;
       }
       .section2_lastarea_innerright > h3 {
-        font-size: 18px !important;
+        font-size: 15px !important;
       }
     /*Download Page*/
     /* Section 1*/
@@ -1496,7 +1496,7 @@
         font-size: 34px;
     }
     .section2_mainheading > h3 {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
     margin-top: 60px;
     padding-left: 15px;
@@ -1505,8 +1505,9 @@
     text-align: center;
   }
   .dp_section3_leftside > img {
-    max-width: 390px;
+    max-width: 340px;
     position: relative;
     margin-top: 20px;
   }
+
 }
