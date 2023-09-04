@@ -1450,18 +1450,18 @@
 @media only screen and (max-width: 390px) {
     /*Signup Page*/
     #banner{
-        height: 580px;
+        height: 580px !important;
         }
     /*Download Page*/
     /* Section 1*/
     #dp_banner{
-        height: 580px;
+        height: 580px !important;
     }
 }
 @media only screen and (max-width: 428px) {
     /*Signup Page*/
     #banner{
-        height: 600px;
+        height: 580px !important;
         }
     .mainHeading, .mainHeading2 {
         font-size: 34px;
@@ -1490,7 +1490,7 @@
     /*Download Page*/
     /* Section 1*/
     #dp_banner{
-        height: 600px;
+        height: 580px !important;
     }
     .dp_mainHeading, .dp_mainHeading2 {
         font-size: 34px;
