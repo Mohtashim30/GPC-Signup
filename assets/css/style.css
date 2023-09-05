@@ -433,7 +433,7 @@ body {
     margin-left: 70px;
 }
 /*File Download Page*/
-body {
+/* body {
     font-family: 'Poppins', sans-serif;
 }
 #f_banner {
@@ -462,17 +462,12 @@ body {
     text-transform: uppercase;
     color: #000;
 }
-/* .f_buttons
-{
-    display: flex;
-} */
 .f_section1_btn1 {
     background-color: #06FE00 !important;
     border-radius: 30px !important;
     border-color: #06FE00 !important;
     margin-top: 10px;
     position: relative;
-    /* max-width: 300px; */
 }
 .f_section1_btn1>a>img{
     max-width: 26px;
@@ -493,7 +488,6 @@ body {
     border-color: #06FE00 !important;
     margin-top: 10px;
     position: relative;
-    /* max-width: 300px; */
 }
 .f_section1_btn2>a>img{
     max-width: 26px;
@@ -510,4 +504,4 @@ body {
 .f_section1_rightimg {
     width: 960px !important;
     margin: 160px 0px 0px -380px;
-}
+} */
